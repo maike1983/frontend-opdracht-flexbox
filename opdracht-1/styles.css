@@ -1,0 +1,35 @@
+nav ul {
+    list-style: none;
+}
+
+.navbar-one ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-two ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-three div {
+    display: flex;
+    flex-direction: row;
+    width: 190px;
+    justify-content: space-between;
+}
+
+.navbar-three ul {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    justify-content: flex-end;
+}
