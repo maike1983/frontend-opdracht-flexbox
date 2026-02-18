@@ -68,7 +68,6 @@ h1 {
 nav ul {
     list-style: none;
 }
-
 .menu-links {
     display: flex;
     flex-direction: column;
@@ -82,10 +81,24 @@ nav ul {
 }
 
 .menu-links > li {
-    display: block;
-    border: 1px solid green; /* tijdelijk */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid green;
 }
 
+.menu-links > li img {
+    width: 18px;
+    height: 18px;
+    flex-basis: 18px;
+    flex-shrink: 0;
+    border: 3px dotted purple;
+}
+
+.menu-links > li a {
+    border: 3px dotted deeppink;
+}
 
 .nav-top {
     display: flex;
@@ -107,6 +120,10 @@ nav ul {
     width: 100%;
 }
 
+.active {
+    background-color: darkgray;
+    border-radius: 5px;
+}
 
 /*///////////// 3.2 Header /////////////*/
 
