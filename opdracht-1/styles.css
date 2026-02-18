@@ -32,6 +32,8 @@ nav ul {
     flex-direction: row;
     justify-content: flex-end;
 }
+
+/*Ik weet niet hoe ik deze kan oplossen....*/
 .navbar-four {
     display: flex;
     flex-direction: row;

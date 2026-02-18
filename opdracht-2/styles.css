@@ -1,0 +1,102 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+   1. Global Styles
+   2. Typografie
+   3. Areas
+       3.1 Area 1 Navigatie
+       3.2 Area 2 Header
+       3.3 Area 3 Main
+       3.4 Area 4 Footer
+       3.5 Area 5
+////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+/*////////////////////////
+   1. Global Styles
+////////////////////////*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow-y: scroll;
+    flex-basis: 900px;
+    flex-grow: 4;
+    border: 3px dotted green;
+}
+
+
+/*////////////////////////
+   2. Typography
+////////////////////////*/
+h1 {
+    border: 3px dotted red;
+}
+
+
+
+
+
+
+/*////////////////////////
+   3. Areas
+////////////////////////*/
+
+
+
+
+
+
+/*///////////// 3.1 Navigatie /////////////*/
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 300px;
+    min-width: 250px;
+    flex-grow: 1;
+    border: 3px dotted blue;
+}
+
+
+
+
+
+/*///////////// 3.2 Header /////////////*/
+
+
+
+
+
+
+/*///////////// 3.3 Main /////////////*/
+
+
+
+
+
+
+/*///////////// 3.4 Footer /////////////*/
+
+
+
+
+
+
+/*///////////// 3.5 Area 5 /////////////*/
