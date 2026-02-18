@@ -13,11 +13,18 @@ nav ul {
     flex-direction: row;
     justify-content: flex-end;
 }
+/*!*Opdracht 4 opnieuw proberen.*/
+/*Blokken tekenen.*/
+/*Samenvatting van ChatGPT nog eens lezen over verschil parent en child.*/
+/*Denk aan toewijzen breedte/hoogte als container te klein lijkt.*/
+/*Zet border aan op zowel parent als child.*/
+/**!*/
 
 .navbar-three {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: 3px dotted  blue;
 }
 
 .navbar-three div {
@@ -25,11 +32,59 @@ nav ul {
     flex-direction: row;
     width: 190px;
     justify-content: space-between;
+    border: 3px dotted  purple;
 }
 
 .navbar-three ul {
     display: flex;
     flex-direction: row;
-    width: 900px;
     justify-content: flex-end;
+    border: 3px dotted  red;
+}
+.navbar-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.site-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+.site-links > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.site-links > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1;
+    justify-content: flex-start;
+    min-width: 0;
+    align-items: center;
+}
+
+.login-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 200px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
