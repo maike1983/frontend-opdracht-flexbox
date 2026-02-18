@@ -11,10 +11,6 @@ Table of Contents:
 ////////////////////////////////////////////////////////////////////////*/
 
 
-
-
-
-
 /*////////////////////////
    1. Global Styles
 ////////////////////////*/
@@ -26,7 +22,8 @@ Table of Contents:
 
 body {
     display: flex;
-    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .page {
@@ -34,7 +31,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    overflow-y: scroll;
+    overflow-y: auto;
     flex-basis: 900px;
     flex-grow: 4;
     border: 3px dotted green;
@@ -49,54 +46,66 @@ h1 {
 }
 
 
-
-
-
-
 /*////////////////////////
    3. Areas
 ////////////////////////*/
 
 
-
-
-
-
 /*///////////// 3.1 Navigatie /////////////*/
-nav {
+.navbar {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     flex-basis: 300px;
     min-width: 250px;
     flex-grow: 1;
+    gap:24px;
     border: 3px dotted blue;
+    height: 100vh;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    min-height: 0;
+    overflow: auto;
+    gap: 30px;
+}
+
+.menu-links > li {
+    display: block;
+    border: 1px solid green; /* tijdelijk */
 }
 
 
+.nav-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px
+}
 
+.login-buttons {
+    flex-shrink: 0;
+}
 
 
 /*///////////// 3.2 Header /////////////*/
 
 
-
-
-
-
 /*///////////// 3.3 Main /////////////*/
 
 
-
-
-
-
 /*///////////// 3.4 Footer /////////////*/
-
-
-
-
 
 
 /*///////////// 3.5 Area 5 /////////////*/
