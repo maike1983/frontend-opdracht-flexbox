@@ -95,7 +95,16 @@ nav ul {
 }
 
 .login-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
     flex-shrink: 0;
+}
+
+.login-buttons button {
+    width: 100%;
 }
 
 
